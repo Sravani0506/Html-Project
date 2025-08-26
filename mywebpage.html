@@ -1,0 +1,62 @@
+<html>
+    <head></head>
+    <title>Sample Webpage</title>
+    <style>
+         .photo{
+            border:30px;
+            margin:30px;
+           border-radius:70%;
+           width: 250px; 
+    height: 250px;
+    object-fit: cover;
+    display:block;
+        }
+        .project{
+            display:flex;
+            gap:30px;
+            margin-top:20px;
+        }
+        .project1{
+            display:flex;
+            gap:30px;
+            margin-top:20px;
+        }
+        .first{
+            height:150px;
+            width:150px;
+            cursor:pointer;
+            object-fit:cover;
+        }
+        .second{
+            height:150px;
+            width:150px;
+            cursor:pointer;
+            object-fit:cover;
+        }
+    </style>
+    <body>
+        <div id="sectionmyproject">
+            <div>   
+                 <img src="file:///C:/Users/user/Downloads/30365602.jpg" class="photo">
+                <center><p><h2>My Project</center></h2></p>
+                <center><p>This is my first static webpage.</center></p>
+            </div>
+            <div class="project">
+                <a href="#sectionimage1">
+                <img src="https://www.shutterstock.com/shutterstock/photos/2311972847/display_1500/stock-vector-illustration-of-happy-pongal-holiday-harvest-festival-of-tamil-nadu-south-india-greeting-background-2311972847.jpg" class="first" />
+                </a>
+                <img src="https://www.shutterstock.com/shutterstock/photos/2568919683/display_1500/stock-photo-a-cozy-evening-scene-of-an-ultra-realistic-family-celebrating-makar-sankranti-on-the-balcony-of-a-2568919683.jpg" class="second" onclick="display('sectionmyproject')" />
+            </div>
+            <div class="project1">
+                <img src="https://media.istockphoto.com/id/1054228718/photo/indian-sweets-in-a-plate-includes-gulab-jamun-rasgulla-kaju-katli-morichoor-bundi-laddu.jpg?s=1024x1024&w=is&k=20&c=zuHus6q049UchR1NkljCmCehsB-Ty8k_k_oO8J08y0E=" class="first" onclick="display('sectionmyproject')"/>
+                <img src="https://www.shutterstock.com/shutterstock/photos/2248798091/display_1500/stock-photo-beautiful-mother-and-daughter-making-rangoli-on-diwali-festival-colorful-background-image-of-2248798091.jpg" class="second" onclick="display('sectionmyproject')">
+            </div>
+    </div>
+    <div id="sectionimage1">
+        <h1>Pongal Festival Celebrations</h1>
+        <p>Pongal is a vibrant harvest festival of Andhra Pradesh, celebrated in mid-January to thank the Sun God for prosperity. It involves cooking the special Pongal dish, decorating with Kolam, and honoring cattle with joy and festivities.</p>
+        <a href="#sectionmyproject"><button>back</button></a>
+        <button>draft</button>"
+    </div>
+    </body>
+</html>
